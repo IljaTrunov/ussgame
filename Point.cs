@@ -46,7 +46,7 @@ namespace ussgame
                 y = y + offset;
             }
         }
-        //рисует значения в заданном месте. 
+        //рисует значения в заданном месте.. 
         public void Draw()//oтображает точки
         {
             Console.SetCursorPosition(x, y);

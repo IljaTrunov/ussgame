@@ -17,7 +17,7 @@ namespace ussgame
                 p.Draw();
             }
         }
-        //если змейка с собой сталкивается, игра заканчивается.
+        //если змейка с собой сталкивается, игра заканчивается..
         internal bool IsHit(Figure figure)
         {
             foreach (var p in pList)

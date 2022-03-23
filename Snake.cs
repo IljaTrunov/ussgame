@@ -13,7 +13,7 @@ namespace ussgame
         public Snake(Point tail, int lenght, Direction _direction)
         {
             direction = _direction;
-            pList = new List<Point>(); //начальная точка направления.
+            pList = new List<Point>(); //начальная точка направления..
             for (int i = 0; i < lenght; i++)
             {
                 Point p = new Point(tail);
